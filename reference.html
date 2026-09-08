@@ -6,17 +6,24 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<header role="banner">
 <h1>Comp 484</h1>
 <h2>HTML Reference</h2>
-<ul>
-  <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
-  <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
-  <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
-  <li><a href="links.html" title="Creating links">Creating links</a></li>
-  <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
-  <li><a href="next.html" title="Next steps">Next steps</a></li>
-</ul>
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
+      <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
+      <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
+      <li><a href="links.html" title="Creating links">Creating links</a></li>
+      <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
+      <li><a href="next.html" title="Next steps">Next steps</a></li>
+    </ul>
+  </nav>
 <p>On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.</p>
+</header>
+
+<main role="main">
+<article>
 <h3>HTML Terms</h3>
 <dl>
   <dt>Attribute</dt>
@@ -62,6 +69,7 @@
   <dt>W3C </dt>
   <dd>The W3C, or <b>World Wide Web Consortium</b>, is the standards body responsible for authoring the HTML specification. </dd>
 </dl>
+</article>
 <table border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
   <caption>
   <h3 id="named">Common Named Character Entities </h3>
@@ -157,6 +165,8 @@
     <td><b>&amp;mdash;</b></td>
   </tr>
 </table>
+<footer role="contentinfo">
 <p><a href="http://www.csun.edu" title="csun.edu" target="_blank">CSUN</a> 18111 Nordhoff St Northridge, CA 91330</p>
+</footer>
 </body>
 </html>
